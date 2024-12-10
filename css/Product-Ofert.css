@@ -1,0 +1,135 @@
+/* Productos y Ofertas */
+
+#productos .row {
+    margin-bottom: 23px;
+}
+
+.productos-header {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    max-width: 80%;
+    margin-bottom: 40px;
+}
+
+.productos-header h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.productos-header p {
+    font-size: 16px;
+    color: #555;
+    margin: 0;
+    line-height: 1.5;
+}
+
+#productos h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#productos .row {
+    margin-bottom: 20px;
+}
+
+#productos .card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+#productos .card:hover {
+    transform: scale(1.05);
+}
+
+#productos .card-body {
+    padding: 20px;
+}
+
+#productos .card-footer {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+
+#productos .card img {
+    object-fit: contain;
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.ofertas-header {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    max-width: 80%;
+    margin-bottom: 70px;
+}
+
+.ofertas-header h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.ofertas-header p {
+    font-size: 16px;
+    color: #555;
+    margin: 0;
+}
+
+#ofertas h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#ofertas .card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+#ofertas .card:hover {
+    transform: scale(1.05);
+}
+
+#ofertas .card-body {
+    padding: 20px;
+}
+
+#ofertas .card-footer {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+
+.precio-original {
+    text-decoration: line-through;
+    color: #999;
+    margin-right: 10px;
+}
+
+#ofertas .card img {
+    object-fit: contain;
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}

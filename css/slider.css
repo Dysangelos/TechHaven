@@ -1,0 +1,81 @@
+/* Slider */
+
+#slider {
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+}
+
+#slider h2 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 80%;
+    border: 2px solid #ccc;
+}
+
+#slider .carousel-inner {
+    min-height: 500px;
+    max-height: 600px;
+    border: 1px solid #ccc;
+    border-radius: 10px 10px 60px 60px;
+    overflow: hidden;
+}
+
+.carousel-item img {
+    max-height: 300px;
+    object-fit: contain;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.product-info {
+    padding: 15px;
+    text-align: center;
+    background-color: rgba(245, 245, 245, 0.9);
+    border-top: 1px solid #ddd;
+}
+
+.product-info h5 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.product-info p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}
+
+#slider .carousel-inner img {
+    max-height: 500px;
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+    margin: auto;
+    border-radius: 10px;
+    border: none;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 50%; 
+    width: 40px;
+    height: 40px;
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    background-color: rgba(0, 0, 0, 0.1); 
+}
