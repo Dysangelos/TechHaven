@@ -103,7 +103,7 @@
 #ofertas .card {
     border: 1px solid #ddd;
     border-radius: 10px;
-    transition: transform 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 
 #ofertas .card:hover {

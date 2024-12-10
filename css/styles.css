@@ -157,7 +157,7 @@ footer a:hover {
 
 footer img {
     margin: 10px 5px;
-    transition: transform 0.3s ease;
+    transition: 0.3s ease;
 }
 
 footer img:hover {
